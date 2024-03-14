@@ -1,7 +1,7 @@
 view: consos {
     sql_table_name: Conso.consos ;;
 
-    dimension: site {
+  dimension: site {
       type: number
       sql: ${TABLE}.site ;;
     }
