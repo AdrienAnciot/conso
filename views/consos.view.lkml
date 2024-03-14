@@ -21,6 +21,11 @@ view: consos {
     sql: ${TABLE}.date ;;
   }
 
+  dimension: annee_mois {
+    type: string
+    sql: concat(year(${date}),"-",month(${date}) ;;
+  }
+
   dimension: montant {
     type: number
     sql: ${TABLE}.montant ;;
