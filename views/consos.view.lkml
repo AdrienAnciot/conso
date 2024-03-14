@@ -1,5 +1,5 @@
 view: consos {
-    sql_table_name: Gescom.consos ;;
+    sql_table_name: Conso.consos ;;
     #drill_fields: [article]
 
     dimension: site {
