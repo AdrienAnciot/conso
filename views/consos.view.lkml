@@ -18,7 +18,7 @@ view: consos {
 
   dimension: date {
     type: date
-    sql: ${TABLE}.site ;;
+    sql: ${TABLE}.date ;;
   }
 
   dimension: montant {
