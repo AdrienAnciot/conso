@@ -14,5 +14,9 @@ view: site {
     type: string
     sql: ${TABLE}.Province ;;
   }
+  dimension: province_commune {
+    type: string
+    sql: conact(${province},${commune}) ;;
+  }
 
 }
