@@ -16,7 +16,7 @@ view: site {
   }
   dimension: province_commune {
     type: string
-    sql: conact(${province},${commune}) ;;
+    sql: concat(${province}," - ",${commune}) ;;
   }
 
 }
