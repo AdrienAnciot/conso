@@ -23,7 +23,7 @@ view: consos {
 
   dimension: annee_mois {
     type: string
-    sql: concat(extract(year from ${date}),"-",extract(month from ${date})) ;;
+    sql: concat(extract(year from ${date}),"-",if(extract(month from ${date})<10,"0",""),extract(month from ${date})) ;;
   }
 
   dimension: montant {
